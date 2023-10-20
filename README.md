@@ -1,2 +1,0 @@
-# Quickbase-interview
-Quickbase interview

@@ -1,0 +1,46 @@
+.field-builder {
+  font-family: Arial, sans-serif;
+  width: 40%;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.field-builder h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.field-builder label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+
+/* .highlighted-textarea {
+  background-color: #f3f4f6;  
+} */
+
+textarea:hover {
+  cursor: pointer;
+}
+
+.field-builder select, 
+.field-builder input[type="text"], 
+.field-builder textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.field-builder button {
+  margin-right: 10px;
+}
